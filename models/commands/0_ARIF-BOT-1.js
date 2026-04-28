@@ -223,25 +223,65 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Saalo chidda rahe ho mujhe", threadID);
    };
 
-   if ((event.body.toLowerCase() == "has the bot eaten yet") || (event.body.toLowerCase() == "bot an comrade")) {
-     return api.sendMessage("I'm full when I see you eat <3", threadID);
+   if ((event.body.toLowerCase() == "Ayan kon hai") || (event.body.toLowerCase() == "kon hai ayan")) {
+     return api.sendMessage("Ayan Mera Owner hai 🙂🌸", threadID);
    };
 
-  if ((event.body.toLowerCase() == "lob you") || (event.body.toLowerCase() == "i lob you")) {
-     return api.sendMessage("Lob You too", threadID);
+  if ((event.body.toLowerCase() == "group ki ladkiya ksi han") || (event.body.toLowerCase() == "group ki ladkiya kasi han")) {
+     return api.sendMessage("group ki ladkiya 5KG makeup Laga kar bolti han hyee kya lag rahi han 🩷🥹", threadID);
    };
 
-   if ((event.body.toLowerCase() == "does the bot love me") || (event.body.toLowerCase() == "does the bot love me")) {
-     return api.sendMessage("Yes <3", threadID);
+   if ((event.body.toLowerCase() == "kese ho") || (event.body.toLowerCase() == "kiya hal hai")) {
+     return api.sendMessage("main pyara hu apka pata nahi 🥹🩷", threadID);
    };
 
-   if ((event.body.toLowerCase() == "&fuck") || (event.body.toLowerCase() == "&Fuck")) {
-     return api.sendMessage("🏔️🏝️Priyansh Ƞɛ ꌗƥɛçɪɑɭɭɣ Ƭuɱ 🌊🪺Jɑɪʂɛ Ƭɧɑɽƙɪɣɵ Ƙɛ Ɬɪɣɛ•• 🏞️🌬️Ɣɑɧ çɵɱɱɑƞɗ Ɦɑʈɑ Ɗɪɣɑ Ɦɑɪ↗↘ Sɵɽɽɣ Ɠɣuʂ••😹🫶", threadID);
+   if ((event.body.toLowerCase() == "khana khaya") || (event.body.toLowerCase() == "khana khawo ge")) {
+     return api.sendMessage("apne hathu se khalawo ge to khaa longa babiiw 🥹🩷", threadID);
    };
 
-  if ((event.body.toLowerCase() == "ami arif") || (event.body.toLowerCase() == "ami diya") || (event.body.toLowerCase() == "main amrita") || (event.body.toLowerCase() == "main arif") || (event.body.toLowerCase() == "main diya")) {
-     return api.sendMessage("🕊️🍎...Aɭɛ Ɱɛɹɛ Ɓɑɓɣ Ƙɛʂɛ Ɦɵ ɑɑp😚🍒", threadID);
-      };
+  if ((event.body.toLowerCase() == "aapka owner pyara hai kya") || (event.body.toLowerCase() == "apka owner kesa hai") || (event.body.toLowerCase() == "owner apka") || (event.body.toLowerCase() == "ayan") || (event.body.toLowerCase() == "sun Ayan")) {
+     return api.sendMessage("boht pyara hai owner mera 🙊", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "❤️‍🩹") || (event.body.toLowerCase() == "💔") || (event.body.toLowerCase() == "💘") || (event.body.toLowerCase() == "💔💔")) {
+     return api.sendMessage("tut gaya na Dil alfi lawo kya jor do🙊🥹", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "group admin") || (event.body.toLowerCase() == "group admin kon hai") || (event.body.toLowerCase() == "group kska hai") || (event.body.toLowerCase() == "admin kaha hai") || (event.body.toLowerCase() == "Group ka Malik?")) {
+     return api.sendMessage("bare zalim han admin jab dekho you remove from the group kar dete han 😫❤️‍🩹", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "luck") || (event.body.toLowerCase() == "qimsat")) {
+     return api.sendMessage("teri Qismat always kharab rahti hai 🥺🫀", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "single hu") || (event.body.toLowerCase() == "I'm single")) {
+     return api.sendMessage("tu to single hi mare ga 😀🌸", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "maim agaya ") || (event.body.toLowerCase() == "im coming")) {
+     return api.sendMessage("waps jaa teri jaga nahi edhr 😹🌸", threadID);
+   };
+
+  if ((event.body.toLowerCase() == "poetry") || (event.body.toLowerCase() == "shayri")) {
+     return api.sendMessage("ching chung chhaaaa chii chuuu anso puchh lo rona nahi 😫🌸", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "dil") || (event.body.toLowerCase() == "Mera Dil loge")) {
+     return api.sendMessage("10rupy donga dega to bol 🌸🙂", threadID);
+   };
+
+  if ((event.body.toLowerCase() == "pyar ho gya mujhe") || (event.body.toLowerCase() == "pyar")) {
+     return api.sendMessage("dil nahi gudam hai apka 🙊", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "koie to pata lo") || (event.body.toLowerCase() == "pata lo mujhe")) {
+     return api.sendMessage("chal bhaag 😫🌸", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "crush") || (event.body.toLowerCase() == "Crush")) {
+     return api.sendMessage("pyar ho jaye ga pagal crush na bol🙊", threadID);
+   };
 
    mess = "{name}"
 
